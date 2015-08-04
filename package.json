@@ -1,32 +1,30 @@
 {
-  "name": "jstransformer-dot",
-  "version": "0.0.1",
-  "description": "doT.js support for JS Transformers.",
-  "keywords": [
-    "jstransformer"
-  ],
-  "license": "MIT",
   "dependencies": {
     "dot": "~1.0.1"
   },
+  "name": "jstransformer-dot",
+  "version": "0.1.0",
+  "description": "doT.js support for JSTransformers.",
+  "keywords": [
+    "jstransformer"
+  ],
+  "files": [
+    "index.js"
+  ],
   "devDependencies": {
-    "coveralls": "^2.11.2",
-    "istanbul": "^0.3.5"
+    "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "node test",
-    "coverage": "istanbul cover test",
-    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
+    "test": "test-jstransformer",
+    "coverage": "test-jstransformer coverage"
   },
-  "files": [
-    "index.js",
-    "README.md",
-    "LICENSE"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-dot.git"
   },
-  "author": "Rob Loach <robloach@gmail.com>",
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
   "license": "MIT"
 }
