@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "dot": "~1.0.1"
+    "dot": "~1.1.0"
   },
   "name": "jstransformer-dot",
   "version": "0.1.0",
