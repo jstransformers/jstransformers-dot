@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-var dot = require('dot');
+var dot = require('dot')
 
-exports.name = 'dot';
-exports.outputFormat = 'html';
-exports.compile = dot.compile;
+exports.name = 'dot'
+exports.outputFormat = 'html'
+exports.compile = dot.compile
