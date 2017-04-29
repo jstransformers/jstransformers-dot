@@ -1,5 +1,7 @@
 # jstransformer-dot
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-dot.svg)](https://greenkeeper.io/)
+
 [doT.js](https://olado.github.io/doT/) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-dot/master.svg)](https://travis-ci.org/jstransformers/jstransformer-dot)
