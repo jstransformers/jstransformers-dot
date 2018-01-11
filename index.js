@@ -1,6 +1,6 @@
 'use strict'
 
-var dot = require('dot')
+const dot = require('dot')
 
 exports.name = 'dot'
 exports.outputFormat = 'html'
