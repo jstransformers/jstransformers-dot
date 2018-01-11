@@ -3,7 +3,7 @@
     "dot": "~1.1.0"
   },
   "name": "jstransformer-dot",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "doT.js support for JSTransformers.",
   "keywords": [
     "jstransformer"
